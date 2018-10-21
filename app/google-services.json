@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "701811220624",
+    "firebase_url": "https://nasa-project-e38ef.firebaseio.com",
+    "project_id": "nasa-project-e38ef",
+    "storage_bucket": "nasa-project-e38ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701811220624:android:1d3802fa15d6f105",
+        "android_client_info": {
+          "package_name": "com.example.sarahwbcodes.watchouthome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701811220624-cfn7hrkkpj9r5a5n71eo9v2tpg0ddi86.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sarahwbcodes.watchouthome",
+            "certificate_hash": "c1e57e693d97c5eadc87c6fa77db8d6b9eca97bd"
+          }
+        },
+        {
+          "client_id": "701811220624-7qskpu2ofuj2f8gca0559rtqn3r4r6ck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfPBD2CGJ6uwhTnwc5BbyposhgOM7j3j8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701811220624-7qskpu2ofuj2f8gca0559rtqn3r4r6ck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701811220624:android:c541e42931e300bf",
+        "android_client_info": {
+          "package_name": "com.watchout.disasterplanners.watchout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701811220624-fslmc9039ooehi5ocd13h560rjuaf55j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.watchout.disasterplanners.watchout",
+            "certificate_hash": "35eadb9b44ccea55b7a5152b8f7f9f16f97e98f2"
+          }
+        },
+        {
+          "client_id": "701811220624-7qskpu2ofuj2f8gca0559rtqn3r4r6ck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfPBD2CGJ6uwhTnwc5BbyposhgOM7j3j8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701811220624-7qskpu2ofuj2f8gca0559rtqn3r4r6ck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

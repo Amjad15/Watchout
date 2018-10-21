@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_light">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="11dp"
+            android:text="Volcano"
+            android:textColor="#90b4fe"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button180"
+                android:layout_width="19dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="7dp"
+                android:layout_weight="1"
+                android:background="#f7bdeb92"
+                android:text="proceed"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Vbtn"
+                android:layout_width="19dp"
+                android:layout_height="44dp"
+                android:layout_marginRight="9dp"
+                android:layout_weight="1"
+                android:background="#90b4fe"
+                android:text="details"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="11dp"
+            android:text="Earthquacke"
+            android:textColor="#90b4fe"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button112"
+                android:layout_width="19dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="7dp"
+                android:layout_weight="1"
+                android:background="#f7bdeb92"
+                android:text="proceed"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Ebtn"
+                android:layout_width="19dp"
+                android:layout_height="44dp"
+                android:layout_marginRight="9dp"
+                android:layout_weight="1"
+                android:background="#90b4fe"
+                android:text="details"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="11dp"
+            android:text="Snowstorm"
+            android:textColor="#90b4fe"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button111"
+                android:layout_width="19dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="7dp"
+                android:layout_weight="1"
+                android:background="#f7bdeb92"
+                android:text="proceed"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Sbtn"
+                android:layout_width="19dp"
+                android:layout_height="44dp"
+                android:layout_marginRight="9dp"
+                android:layout_weight="1"
+                android:background="#90b4fe"
+                android:text="details"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="11dp"
+            android:text="Wildfire"
+            android:textColor="#90b4fe"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button132"
+                android:layout_width="19dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="7dp"
+                android:layout_weight="1"
+                android:background="#f7bdeb92"
+                android:text="proceed"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Wbtn"
+                android:layout_width="19dp"
+                android:layout_height="44dp"
+                android:layout_marginRight="9dp"
+                android:layout_weight="1"
+                android:background="#90b4fe"
+                android:text="details"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="11dp"
+            android:text="Flood"
+            android:textColor="#90b4fe"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button143"
+                android:layout_width="19dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="7dp"
+                android:layout_weight="1"
+                android:background="#f7bdeb92"
+                android:text="proceed"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Fbtn"
+                android:layout_width="19dp"
+                android:layout_height="44dp"
+                android:layout_marginRight="9dp"
+                android:layout_weight="1"
+                android:background="#90b4fe"
+                android:text="details"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="11dp"
+            android:text="Hailstorm"
+            android:textColor="#90b4fe"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button125"
+                android:layout_width="19dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="7dp"
+                android:layout_weight="1"
+                android:background="#f7bdeb92"
+                android:text="proceed"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Hbtn"
+                android:layout_width="19dp"
+                android:layout_height="44dp"
+                android:layout_marginRight="9dp"
+                android:layout_weight="1"
+                android:background="#90b4fe"
+                android:text="details"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="11dp"
+            android:text="duststorm"
+            android:textColor="#90b4fe"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button182"
+                android:layout_width="19dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="7dp"
+                android:layout_weight="1"
+                android:background="#f7bdeb92"
+                android:text="proceed"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Dbtn"
+                android:layout_width="19dp"
+                android:layout_height="44dp"
+                android:layout_marginRight="9dp"
+                android:layout_weight="1"
+                android:background="#90b4fe"
+                android:text="details"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="11dp"
+            android:text="Thunderstorm"
+            android:textColor="#90b4fe"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="19dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="7dp"
+                android:layout_weight="1"
+                android:background="#f7bdeb92"
+                android:text="proceed"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Tbtn"
+                android:layout_width="19dp"
+                android:layout_height="44dp"
+                android:layout_marginRight="9dp"
+                android:layout_weight="1"
+                android:background="#90b4fe"
+                android:text="details"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

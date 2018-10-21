@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_light">
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="117dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="5dp"
+        android:text="Duststorm"
+        android:textColor="#90b4fe"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toTopOf="@+id/imageView1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="139dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="205dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:text="What is it?"
+        android:textColor="#90b4fe"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="92dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:text="signs"
+        android:textColor="#90b4fe"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="335dp"
+        android:layout_height="141dp"
+        android:layout_marginLeft="12dp"
+        android:text="A dust storm is a meteorological phenomenon common in arid and semi-arid regions. Dust storms arise when a gust front or other strong wind blows loose sand and dirt from a dry surface. Fine particles are transported by saltation and suspension, a process that moves soil from one place and deposits it in another."
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="328dp"
+        android:layout_height="193dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="3dp"
+        android:text=" Dust storms frequently happen during the hot, summer monsoon months, just before thunderstorms.&#xA;Appearance An impending dust storm looks like a solid wall of debris and dust traveling on the horizon. They can be several miles long and thousands of feet high, which makes them easy to see.  &#xA;Little Warning Dust storms move quickly. Other than seeing a wall of brown dust approaching in the distance, you will not have much warning before a dust storm arrives. However, they usually precede thunderstorms. If you see large thunderhead clouds and notice the wind is picking up, you can reasonably expect a dust storm to occur.  &#xA;Safety Dust storms are especially hazardous to motorists because they greatly reduce visibility. If you are driving and notice a dust storm approaching, turn on your radio to listen for warnings and slow down. If visibility decreases below 300 feet, pull over and turn off your vehicle's lights until the storm passes. &#xA; Protection When you see a dust storm approaching, go indoors if possible. Dust storms are often accompanied by high winds that carry debris and cause damage. The dust can also pose health risks if it is inhaled or blows into your eyes. signs duststorm A thunderstorm, also known as an electrical storm, lightning storm, or thundershower, is a storm characterized by the presence of lightning and its acoustic effect on the Earth's atmosphere, known as thunder. ^^ thunderstorm A thunderstorm's life cycle can be as brief as 30 minutes and its onset can be abrupt and violent. Some thunderstorm warning signs are obvious, such as vanishing sunlight as thunderheads roll in, or you might experience radio static while picnicking under a clear blue sky, with no other indication that a thunderstorm is about to hit. Knowing the warning signs gives you a better chance of reaching safety before you're exposed to the full brunt of the storm.  Cloud Formations A rapidly rising cumulus cloud signals an imminent thunderstorm. The storm takes shape as warm, humid air rises and the condensation that forms as the warm updraft meets the cooler air above produces the cloud. You can identify the cumulus cloud by its height and rounded, bumpy protrusions. Once the updraft's temperature reaches equilibrium with the surrounding air, the top of the cloud flattens, creating an anvil-like shape indicating the storm has reached its mature stage and is ready to unleash violent weather.  Darkening Sky A rapidly dimming sky filled with dark, roiling clouds is a signal to seek shelter. A storm system's clouds can become so massive that they block out most of the sun's rays and the mass of droplets within the clouds are an effective barrier against sunlight. If the visible storm clouds are under additional layers of clouds, the light can dim to the level of Twilight. Clouds that signal an oncoming storm aren't always black; they can take on purple, yellow and greenish hues before the start of a storm.  Lightning Lightning can strike 10 to 15 miles from the center of a storm. Even when you're under a clear blue sky, lightning can strike from the upper reaches of the storm's flattened anvil cloud. Lightning begins to occur during a thunderstorm's developing stage and can strike before the first raindrops fall. Heat lightning is produced by a thunderstorm that's too distant for its thunder to be audible and could be your first warning of a storm that's headed in your direction. The electrically charged atmosphere also can cause radio static.  Wind Winds can abruptly gust or change direction just before a thunderstorm. Downdrafts form during a thunderstorm's mature stage and these air columns rush towards Earth, spreading out as they reach the ground. More violent forms of downdrafts called downbursts descend quickly enough to cause gusts of over 100 mph. These downbursts can form gusts called straight-line winds which can carry the destructive force of a tornado."
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="306dp"
+        android:layout_height="136dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/im1"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/duststorm" />
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

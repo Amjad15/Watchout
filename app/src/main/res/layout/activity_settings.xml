@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_light">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        tools:layout_editor_absoluteY="25dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="213dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="16dp"
+            android:text="Edit page"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#90b4fe"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="139dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="205dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="76dp"
+            android:text="Weight:"
+            android:textAllCaps="false"
+            android:textColor="#90b4fe"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="227dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="117dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="19dp"
+            android:text="About us:"
+            android:textColor="#90b4fe"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="352dp"
+            android:layout_height="301dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="276dp"
+            android:text='To those by disasters all over the world. We are "disaster planners" team.  Ahlam Alshammry Sara Alamri Sarah Albaiz Amjad Almgati Kholood Albuqmi  WHO WE ARE? When Earth surprises you, make sure you have an emergency preparedness kit. In fact, have more than a kit – know your disaster, and know your plan. We will make sure to get you out of these disasters without forgetting anything! We will help you to plan because of the time constraints when disasters occur. We will change the world through NASA.  '
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="228dp"
+            android:layout_height="70dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView3"
+            app:layout_constraintHorizontal_bias="0.212"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            app:layout_constraintVertical_bias="0.07"
+            tools:text="your weight in kg" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

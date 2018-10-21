@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_light">
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        tools:layout_editor_absoluteY="25dp">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="170dp"
+            android:layout_height="41dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="134dp"
+            android:layout_marginStart="109dp"
+            android:layout_marginTop="5dp"
+            android:text="Thunderstorm"
+            android:textColor="#90b4fe"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:layout_constraintBottom_toTopOf="@+id/imageView1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="139dp"
+            android:layout_height="34dp"
+            android:layout_marginEnd="205dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:text="What is it?"
+            android:textColor="#90b4fe"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView1" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="92dp"
+            android:layout_height="38dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:text="signs"
+            android:textColor="#90b4fe"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="335dp"
+            android:layout_height="97dp"
+            android:layout_marginLeft="12dp"
+            android:text="A thunderstorm, also known as an electrical storm, lightning storm, or thundershower, is a storm characterized by the presence of lightning and its acoustic effect on the Earth's atmosphere, known as thunder."
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="328dp"
+            android:layout_height="193dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="3dp"
+            android:text="A thunderstorm's life cycle can be as brief as 30 minutes and its onset can be abrupt and violent. Some thunderstorm warning signs are obvious, such as vanishing sunlight as thunderheads roll in, or you might experience radio static while picnicking under a clear blue sky, with no other indication that a thunderstorm is about to hit. Knowing the warning signs gives you a better chance of reaching safety before you're exposed to the full brunt of the storm.  .&#xA;Cloud Formations .&#xA;A rapidly rising cumulus cloud signals an imminent thunderstorm. The storm takes shape as warm, humid air rises and the condensation that forms as the warm updraft meets the cooler air above produces the cloud. You can identify the cumulus cloud by its height and rounded, bumpy protrusions. Once the updraft's temperature reaches equilibrium with the surrounding air, the top of the cloud flattens, creating an anvil-like shape indicating the storm has reached its mature stage and is ready to unleash violent weather.  Darkening Sky .&#xA;A rapidly dimming sky filled with dark, roiling clouds is a signal to seek shelter. A storm system's clouds can become so massive that they block out most of the sun's rays and the mass of droplets within the clouds are an effective barrier against sunlight. If the visible storm clouds are under additional layers of clouds, the light can dim to the level of Twilight. Clouds that signal an oncoming storm aren't always black; they can take on purple, yellow and greenish hues before the start of a storm.  .&#xA;Lightning .&#xA;Lightning can strike 10 to 15 miles from the center of a storm. Even when you're under a clear blue sky, lightning can strike from the upper reaches of the storm's flattened anvil cloud. Lightning begins to occur during a thunderstorm's developing stage and can strike before the first raindrops fall. Heat lightning is produced by a thunderstorm that's too distant for its thunder to be audible and could be your first warning of a storm that's headed in your direction. The electrically charged atmosphere also can cause radio static.  .&#xA;Wind Winds can abruptly gust or change direction just before a thunderstorm. Downdrafts form during a thunderstorm's mature stage and these air columns rush towards Earth, spreading out as they reach the ground. More violent forms of downdrafts called downbursts descend quickly enough to cause gusts of over 100 mph. These downbursts can form gusts called straight-line winds which can carry the destructive force of a tornado."
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="306dp"
+            android:layout_height="136dp"
+            android:layout_marginBottom="2dp"
+
+            android:layout_marginTop="5dp"
+            android:src="@drawable/im1"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            app:srcCompat="@drawable/thunderstorm" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

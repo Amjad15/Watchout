@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_light">
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        tools:layout_editor_absoluteY="25dp">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="170dp"
+            android:layout_height="41dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="134dp"
+            android:layout_marginStart="109dp"
+            android:layout_marginTop="5dp"
+            android:text="Snowstorm"
+            android:textAlignment="center"
+            android:textColor="#90b4fe"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:layout_constraintBottom_toTopOf="@+id/imageView1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.528"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="139dp"
+            android:layout_height="34dp"
+            android:layout_marginEnd="205dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:text="What is it?"
+            android:textColor="#90b4fe"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView1" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="92dp"
+            android:layout_height="38dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:text="signs"
+            android:textColor="#90b4fe"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="335dp"
+            android:layout_height="97dp"
+            android:layout_marginLeft="12dp"
+            android:text="A snowstorm is an event in which varieties of precipitation are formed that only occur at low temperatures, such as snow or sleet, or a rainstorm where ground temperatures are low enough to allow ice to form (i.e. freezing rain). In temperate continental climates, these storms are not necessarily restricted to the winter season, but may occur in the late autumn and early spring as well."
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="328dp"
+            android:layout_height="193dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="3dp"
+            android:text="What Constitutes a Snowstorm The National Oceanic and Atmospheric Administration defines a blizzard as a large storm with winds in excess of 56 kilometers per hour (35 miles per hour), blowing snow or large amounts of snow and visibility of less than 0.4 kilometer (1/4 mile) that lasts for at least three hours. It isn't hard to see such a large storm brewing, but if you don't have access to a means of electronic communication, you may mistake it for a smaller event, such as a snow squall. You probably won't do this, however, if you understand how large storms form. The dynamics vary somewhat according to the part of the country in which you live.  .&#xA;.&#xA;The Geography of Snowstorms In general, winter storms in North America form as cold air coming south from the North Pole meets warm air headed north from the Gulf of Mexico, creating a front. In the West, cold air that blows in the from Pacific Ocean can create blizzard conditions on the windward slopes of mountains. The cold air streams that produce storms in the Midwest often originate on the lee side of the Rocky Mountains, which blow eastward toward the Great Lakes and beyond. Cold air blowing in from the Atlantic in the form of nor'easters is usually responsible for blizzards that form on the Eastern Seaboard. In the Great Lakes region, storms occur as cold winds blow over warm, moist air from the lakes."
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="306dp"
+            android:layout_height="136dp"
+            android:layout_marginBottom="2dp"
+
+            android:layout_marginTop="5dp"
+            android:src="@drawable/im1"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            app:srcCompat="@drawable/snowstorm" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
